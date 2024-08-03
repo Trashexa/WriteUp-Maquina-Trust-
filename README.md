@@ -6,7 +6,7 @@ Primero haremos un Ping a la IP para verificar que haya conexion
 Iniciamos con un escaneo básico de puertos y encontramos los siguientes servicios abiertos:
 <br>
 <br>
-![image](https://github.com/user-attachments/assets/3f91c7d4-234b-4e49-a9d8-9fcaf6f60ebf)
+<img>[image](https://github.com/user-attachments/assets/3f91c7d4-234b-4e49-a9d8-9fcaf6f60ebf)
 <br>
 <br>
 <b>Enumeración de Directorios</b>
