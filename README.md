@@ -30,7 +30,7 @@ Encontramos un archivo interesante:
 Accedemos a " http://172.18.0.2/secret.php ", pero solo encontramos un mensaje que dice "HOLA MARIO". Sin más información útil, decidimos explorar otras opciones.
 <br>
 <br>
-![image](https://github.com/user-attachments/assets/2f3034b3-d3b6-4340-9b76-267ee5e5a933)
+<img src="https://github.com/user-attachments/assets/2f3034b3-d3b6-4340-9b76-267ee5e5a933">
 <br>
 <br>
 <h2><b>Fuerza Bruta en SSH</b></h2>
@@ -60,7 +60,7 @@ ssh mario@172.18.0.2
 Al verificar los privilegios de sudo con sudo -l, observamos lo siguiente:
 <br>
 <br>
-![image](https://github.com/user-attachments/assets/dacc3017-5890-4356-ab6a-bc0bed7de500)
+<img src="https://github.com/user-attachments/assets/dacc3017-5890-4356-ab6a-bc0bed7de500">
 <br>
 <br>
 Esto indica que podemos usar vim como root. Para explotar este permiso, consultamos GTFOBins.
@@ -72,7 +72,7 @@ sudo vim -c ':!/bin/sh'
 <br>
 Al ejecutar este comando, logramos escalar privilegios y obtener acceso root.
 <br>
-![image](https://github.com/user-attachments/assets/299a427e-5260-4673-9734-7f0c61668cef)
+<img src="https://github.com/user-attachments/assets/299a427e-5260-4673-9734-7f0c61668cef">
 <br>
 <br>
 ¡Y eso es todo, ya somos root!
