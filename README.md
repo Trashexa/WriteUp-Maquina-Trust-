@@ -67,10 +67,11 @@ Esto indica que podemos usar vim como root. Para explotar este permiso, consulta
 <br>
 <br>
 <h2><b>Comando para obtener acceso root:</b></h2>
-<br>
 sudo vim -c ':!/bin/sh'
 <br>
+<br>
 Al ejecutar este comando, logramos escalar privilegios y obtener acceso root.
+<br>
 <br>
 <img src="https://github.com/user-attachments/assets/299a427e-5260-4673-9734-7f0c61668cef">
 <br>
