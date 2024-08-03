@@ -10,7 +10,6 @@ Iniciamos con un escaneo básico de puertos y encontramos los siguientes servici
 <br>
 <br>
 <h2><b>Enumeración de Directorios</b></h2>
-<br>
 Utilizamos gobuster para enumerar directorios en el puerto 80:
 <br>
 <br>
@@ -21,8 +20,8 @@ gobuster dir -u http://172.18.0.2/ -w /usr/share/wordlists/SecLists/Discovery/We
 <br>
 <br>
 <h2><b>Resultado</b></h2>
-<br>
 Encontramos un archivo interesante:
+<br>
 <br>
 /secret.php
 <br>
@@ -34,7 +33,6 @@ Accedemos a " http://172.18.0.2/secret.php ", pero solo encontramos un mensaje q
 <br>
 <br>
 <h2><b>Fuerza Bruta en SSH</b></h2>
-<br>
 Dado que encontramos un usuario potencial ("mario") en /secret.php, procedemos a un ataque de fuerza bruta en el puerto 22 (SSH) para descubrir la contraseña:
 <br>
 <br>
@@ -49,14 +47,13 @@ Contraseña: chocolate
 <br>
 <br>
 <h2><b>Acceso al Sistema</b></h2>
-<br>
 Usamos las credenciales obtenidas para iniciar sesión por SSH:
+<br>
 <br>
 ssh mario@172.18.0.2
 <br>
 <br>
 <h2><b>Escalada de Privilegios</b></h2>
-<br>
 Al verificar los privilegios de sudo con sudo -l, observamos lo siguiente:
 <br>
 <br>
