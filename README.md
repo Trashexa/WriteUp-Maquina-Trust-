@@ -67,6 +67,7 @@ Al verificar los privilegios de sudo con sudo -l, observamos lo siguiente:
 <br>
 Esto indica que podemos usar vim como root. Para explotar este permiso, consultamos GTFOBins.
 <br>
+<br>
 <b>Comando para obtener acceso root:</b>
 <br>
 <br>
