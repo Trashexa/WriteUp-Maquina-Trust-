@@ -6,7 +6,7 @@ Primero haremos un Ping a la IP para verificar que haya conexion
 Iniciamos con un escaneo básico de puertos y encontramos los siguientes servicios abiertos:
 <br>
 <br>
-<img>[image](https://github.com/user-attachments/assets/3f91c7d4-234b-4e49-a9d8-9fcaf6f60ebf)
+<img src="https://github.com/user-attachments/assets/3f91c7d4-234b-4e49-a9d8-9fcaf6f60ebf">
 <br>
 <br>
 <h2><b>Enumeración de Directorios</b></h2>
@@ -17,7 +17,7 @@ Utilizamos gobuster para enumerar directorios en el puerto 80:
 gobuster dir -u http://172.18.0.2/ -w /usr/share/wordlists/SecLists/Discovery/Web-Content/directory-list-2.3-big.txt -t 20 -x html,php,txt,php.bak
 <br>
 <br>
-![image](https://github.com/user-attachments/assets/2361a103-d894-4f12-b8cf-09f2ff44cc11)
+<img src="https://github.com/user-attachments/assets/2361a103-d894-4f12-b8cf-09f2ff44cc11">
 <br>
 <br>
 <h2><b>Resultado</b></h2>
