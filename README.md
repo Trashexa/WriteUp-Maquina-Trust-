@@ -2,7 +2,7 @@
 
 Primero haremos un Ping a la IP para verificar que haya conexion
 
-<b>Escaneo de Puertos</b>
+<h2><b>Escaneo de Puertos</b></h2>
 <br>
 <br>
 Iniciamos con un escaneo básico de puertos y encontramos los siguientes servicios abiertos:
