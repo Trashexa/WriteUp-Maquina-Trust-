@@ -1,7 +1,5 @@
 # WriteUp Maquina Trust
-
-Primero haremos un Ping a la IP para verificar que haya conexion
-
+<h1>Plataforma: <b>DOCKERLABS</b></h1>
 <h2><b>Escaneo de Puertos</b></h2>
 Iniciamos con un escaneo básico de puertos y encontramos los siguientes servicios abiertos:
 <br>
